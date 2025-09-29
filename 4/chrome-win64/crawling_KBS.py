@@ -11,7 +11,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 # 자격증명: 환경변수 우선, 없으면 하드코딩(테스트용)
 # ---------------------------
 # 실제 배포 시에는 아래 하드코딩을 제거하고 환경변수만 사용하세요.
-ID = os.getenv("NAVER_ID", "jwsh171210")
+ID = os.getenv("NAVER_ID", "affec17")
 PW = os.getenv("NAVER_PW", "sh071090")  # 실제 비번은 환경변수로 넣으세요
 
 # ---------------------------
